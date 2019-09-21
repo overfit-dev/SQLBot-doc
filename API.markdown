@@ -27,11 +27,11 @@ $curl http://35.246.38.47:5000/predict -H "Content-Type: application/x-www-form-
 		"values":[
 			{
 				"query":{
-					"agg":AGGREGATION_OP_ID,
-					"conds":[[COLUMN_ID,OP_ID,VALUE]...],
-					"sel":COLUMN_ID
+					"agg":"AGGREGATION_OP_ID",
+					"conds":[["COLUMN_ID","OP_ID","VALUE"]...],
+					"sel":"COLUMN_ID"
 				},
-				"sql":SQL_INSTRUCTION
+				"sql":"SQL_INSTRUCTION"
 			}
 		]
 	}
