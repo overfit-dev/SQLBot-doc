@@ -53,7 +53,7 @@ curl http://35.246.38.47:5000/predict -H "Content-Type: application/x-www-form-u
             "6",
             "name", "date", "age", "position", "years_in_toronto", "team", "player name",
             "Date", "Age", "Position", "Years in Toronto", "School/Club Team",
-            "Average age of players in defence"
+            "Average age of players in defense"
           ]
         }
      }
